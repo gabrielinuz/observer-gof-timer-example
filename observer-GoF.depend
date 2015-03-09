@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1425886914 source:/home/gabriel/Desarrollo/cplusplus/observer-GoF/main.cpp
+	<iostream>
+	<list>
+	<string>
+
