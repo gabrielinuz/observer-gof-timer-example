@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="AnalogClock.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="107" topLine="11" />
+	</File>
+	<File name="AnalogClock.h" open="1" top="0" tabpos="4">
+		<Cursor position="552" topLine="7" />
+	</File>
+	<File name="ClockTimer.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="838" topLine="41" />
+	</File>
+	<File name="ClockTimer.h" open="1" top="0" tabpos="8">
+		<Cursor position="0" topLine="3" />
+	</File>
+	<File name="DigitalClock.h" open="1" top="0" tabpos="7">
+		<Cursor position="174" topLine="9" />
+	</File>
+	<File name="Observer.h" open="1" top="0" tabpos="6">
+		<Cursor position="77" topLine="0" />
+	</File>
+	<File name="Subject.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Subject.h" open="1" top="0" tabpos="2">
+		<Cursor position="135" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="240" topLine="6" />
+	</File>
+</CodeBlocks_layout_file>

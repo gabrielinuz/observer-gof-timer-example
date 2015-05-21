@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="observer-GoF" />
+		<Option title="observer-GoF-refact-01" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="observer-GoF" prefix_auto="1" extension_auto="1" />
+				<Option output="observer-GoF-refact-01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="." />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -17,8 +17,8 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="observer-GoF" prefix_auto="1" extension_auto="1" />
-				<Option object_output="/home/gabriel/Desarrollo/cplusplus/observer-GoF/.objs" />
+				<Option output="observer-GoF-refact-01" prefix_auto="1" extension_auto="1" />
+				<Option object_output="/home/gabriel/Desarrollo/cplusplus/observer-GoF-refact-01/.objs" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
@@ -30,9 +30,20 @@
 			</Target>
 		</Build>
 		<Compiler>
+			<Add option="-std=c++0x" />
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="AnalogClock.cpp" />
+		<Unit filename="AnalogClock.h" />
+		<Unit filename="ClockTimer.cpp" />
+		<Unit filename="ClockTimer.h" />
+		<Unit filename="DigitalClock.cpp" />
+		<Unit filename="DigitalClock.h" />
+		<Unit filename="Observer.h" />
+		<Unit filename="Subject.cpp" />
+		<Unit filename="Subject.h" />
+		<Unit filename="Widget.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<envvars />
