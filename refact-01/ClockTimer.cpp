@@ -25,41 +25,22 @@ int ClockTimer::GetSecond( void )
 void ClockTimer::Tick ()
 {
     // No update internal time-keeping state, only a demo.
-    // ...
-//    m_seconds++;
-//    if(m_seconds == 60)
-//    {
-//        m_seconds = 0;
-//        m_minutes++;
-//        if(m_minutes == 60)
-//        {
-//            m_seconds = 0;
-//            m_minutes = 0;
-//            m_hours++;
-//            if(m_hours == 24)
-//            {
-//                m_seconds = 0;
-//                m_minutes = 0;
-//                m_hours = 0;
-//            }
-//        }
-//    }
-          m_seconds++;
-          if (m_seconds > 59)
-          {
-                m_seconds = 0;
-                m_minutes++;
+    m_seconds++;
+    if (m_seconds > 59)
+    {
+        m_seconds = 0;
+        m_minutes++;
 
-                if (m_minutes > 59)
-                {
-                      m_minutes = 0;
-                      m_hours++;
+        if (m_minutes > 59)
+        {
+              m_minutes = 0;
+              m_hours++;
 
-                      if (m_hours > 24)
-                      {
-                            m_hours = 0;
-                      }
-                }
-          }
+              if (m_hours > 23)
+              {
+                    m_hours = 0;
+              }
+        }
+    }
     Notify();
 }

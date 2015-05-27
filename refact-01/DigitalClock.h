@@ -1,6 +1,10 @@
 #ifndef DIGITALCLOCK_H
 #define DIGITALCLOCK_H
 
+#include <sstream>
+#define TO_STRING( x ) dynamic_cast< std::ostringstream & >( \
+        ( std::ostringstream() << std::dec << x ) ).str()
+
 #include <iostream>
 #include <string>
 
